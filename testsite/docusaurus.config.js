@@ -1,18 +1,18 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  title: "Test Site",
+  tagline: "The tagline of Test Site",
+  url: "https://plugin.vercel.app",
+  baseUrl: "./testsite",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Comp-Labs", // Usually your GitHub org/user name.
+  projectName: "docusaurus-plugin-vercel-analytics", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "Test Site",
       logo: {
-        alt: "My Site Logo",
+        alt: "Test Site Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -24,7 +24,7 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/Comp-Labs/docusaurus-plugin-vercel-analytics",
           label: "GitHub",
           position: "right",
         },
@@ -50,16 +50,8 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://discord.com/invite/GAbzAGKccW",
             },
           ],
         },
@@ -72,12 +64,12 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/Comp-Labs/docusaurus-plugin-vercel-analytics",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Tech Fiddle. All Rights Reserved.`,
     },
   },
   presets: [
@@ -88,13 +80,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+            "https://github.com/Comp-Labs/docusaurus-plugin-vercel-analytics/edit/main/testsite/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/Comp-Labs/docusaurus-plugin-vercel-analytics/edit/main/testsite/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

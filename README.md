@@ -1,4 +1,4 @@
-# template-docusaurus-plugin
+# docusaurus-plugin-vercel-analytics
 
 A Docusaurus plugin template.
 
