@@ -72,6 +72,26 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Tech Fiddle. All Rights Reserved.`,
     },
   },
+  markdown: {
+    // By default we compile all files as MDX (allow JSX), but you can opt-in for CommonMark if you want
+    // See https://github.com/facebook/docusaurus/pull/9097
+    // format: 'mdx', 
+
+    mdx1Compat: {
+      // Allow html comments in MDX files like blog `<!-- truncate -->` markers
+      comments: false,
+      // Allow former admonition title syntax :::note Title instead of new syntax :::note[Title]
+      admonitions: false,
+      // Allow usage of unescaped {#headingId} syntax instead of \{#headingId}
+      headingIds: false
+    },
+
+    // Gives you opportunity to apply your own string processing before the MDX compilation
+    // Usage is NOT recommended, use this as a last resort escape hatch or temporarily)
+    // preprocessor: ({ filePath, fileContent }) => {
+    //   return fileContent;
+    // }
+  },
   presets: [
     [
       "@docusaurus/preset-classic",

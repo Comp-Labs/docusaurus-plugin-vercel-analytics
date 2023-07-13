@@ -14,7 +14,7 @@ import { inject } from '@vercel/analytics';
  */
 export interface MyPluginOptions {
   // this option will either be undefined or a boolean
-  option?: undefined
+  // option?: undefined
 }
 
 /**
@@ -85,12 +85,12 @@ export default function myPlugin(
     },
     */
 
-    getClientModules() {
-      // Return an array of paths to the modules that are to be imported
-      // in the client bundle. These modules are imported globally before
-      // React even renders the initial UI.
-      return []
-    },
+    // getClientModules() {
+    // Return an array of paths to the modules that are to be imported
+    // in the client bundle. These modules are imported globally before
+    // React even renders the initial UI.
+    // return []
+    // },
 
     //  extendCli(cli) {
     // Register extra command(s) to enhance the CLI of Docusaurus

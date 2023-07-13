@@ -13,6 +13,9 @@
   "prettier": {
     "semi": false
   },
+  "publishConfig": {
+    "provenance": true
+  },
   "devDependencies": {
     "@docusaurus/types": ">=2.0.0-alpha.0 || >=3.0.0-alpha.0 || >=0.0.0-3892",
     "@types/react": "^18.2.0",
